@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-page{
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.nav-links{
+  display: inline;
+  line-height: 60px;
+}
+.nav-style-links a{
+  text-decoration: none;
+  color: #337ab7;
+  margin-right: 10px;
+}
+#btn{
+  margin-right: 0;
+  border: solid 1px #337ab7;
+  padding: 0.8em;
+  background-color: #127d00;
+  color: white;
+}
