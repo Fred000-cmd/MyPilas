@@ -8,8 +8,11 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.header-image{
+  margin-top: 5px;
 }
 .nav-links{
   display: inline;
@@ -18,12 +21,17 @@
 .nav-style-links a{
   text-decoration: none;
   color: #337ab7;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.nav-style-links a:hover{
+  text-decoration: underline;
 }
 #btn{
   margin-right: 0;
-  border: solid 1px #337ab7;
-  padding: 0.8em;
+  border: none;
   background-color: #127d00;
   color: white;
+  padding: 10px 16px 10px 16px;
 }
+
