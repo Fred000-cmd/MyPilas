@@ -1,0 +1,32 @@
+.section-main{
+  background-color: #7ab55c;
+  text-align: center;
+  width: 100%;
+  padding: 80px 0;
+}
+.section-main-title{
+  line-height: 0.9;
+  width: 18ch;
+  display: block;
+  margin: auto;
+  font-size: 74.25px;
+  text-shadow: 0px 1px 1px black;
+  color: white;
+}
+.section-main-text{
+  margin: 60px 0;
+  display: block;
+  font-size: 22px;
+  color: white;
+}
+.section-main-btn{
+  color: white;
+  padding: 17.6px 26.4px ;
+  border-radius: 10px;
+  background-color: #004b86;
+  font-size: 22px;
+  border: none;
+}
+.section-main-btn:hover{
+  background-color: #003b6a;
+}
