@@ -29,4 +29,5 @@
 }
 .section-main-btn:hover{
   background-color: #003b6a;
+  cursor: pointer;
 }

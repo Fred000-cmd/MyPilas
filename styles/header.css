@@ -38,3 +38,6 @@
 #btn:hover{
   background-color: #0e6400;
 }
+#logo:hover{
+  cursor: pointer;
+}
