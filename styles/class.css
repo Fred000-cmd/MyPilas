@@ -1,9 +1,14 @@
 body{
-  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 .container{
   width: 100%;
   padding-left: 107px;
   padding-right: 107px;
+}
+@media (max-width: 800px){
+  .container{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }

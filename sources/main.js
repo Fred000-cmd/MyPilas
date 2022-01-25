@@ -1,4 +1,4 @@
 const logoImage = document.getElementById('logo')
 logoImage.addEventListener('click', ()=>{
-  console.log('Olá')
+  window.location.assign('../index.html');
 })
