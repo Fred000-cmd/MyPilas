@@ -1,0 +1,32 @@
+.section-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.cards{
+  width: 348px;
+  margin-top: 40px;
+  text-align: center;
+  border: solid 1px;
+}
+.cards h2{
+  background-color: #95a4a5;
+  font-weight: normal;
+  line-height: 2.5;
+  font-size: 2em;
+  color: white;
+}
+.cards p {
+  color: black;
+
+}
+
+.footer{
+  margin-top: 60px;
+  line-height: 10vh;
+  height: 10vh;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}

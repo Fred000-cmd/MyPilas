@@ -62,7 +62,6 @@
   justify-content: center;
   background-color: #e7e7e7;
   color: #333;
-  font-size: 28px;
   padding: 10vh 0;
 }
 .section-depoimento-text{
@@ -86,4 +85,39 @@
   color: #ccc;
   font-size: 8em;
   content: "\201C";
+}
+#depoimento{
+  font-size: 28px;
+}
+@media (max-width: 850px){
+  #depoimento{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #depoimento::before{
+    left: -5%;
+    top: 40%;
+  }
+}
+@media (max-width: 775px){
+  #depoimento{
+    font-size: 2.5vh;
+    line-height: 1;
+    width: 50%;
+    margin: auto;
+  }
+  .section-depoimento-text{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #depoimento::before{
+    left: 180px;
+    top: -35%;
+  }
+
+}
+@media (max-width: 735px){
+  #depoimento::before{
+    display: none;
+  }
 }
