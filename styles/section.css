@@ -1,3 +1,4 @@
+/*section-main*/
 .section-main{
   background-color: #7ab55c;
   text-align: center;
@@ -49,4 +50,40 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+/*end section*/
+
+
+/*section depoimento*/
+.section-depoimento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  color: #333;
+  font-size: 28px;
+  padding: 10vh 0;
+}
+.section-depoimento-text{
+  text-align: center;
+  line-height: 40px;
+  width: 678px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.section-image img{
+  border-radius: 50%;
+}
+#nome{
+  font-size: 21px;
+  margin-bottom: -40px;
+}
+#depoimento::before{
+  position: absolute;
+  left: -9%;
+  top: 50%;
+  color: #ccc;
+  font-size: 8em;
+  content: "\201C";
 }
