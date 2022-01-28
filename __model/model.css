@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  margin: auto;
+}
+.card{
+  max-width: 250px;
+}
+.header{
+  width: 100vw;
+}

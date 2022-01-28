@@ -1,0 +1,37 @@
+.headerBtn{
+	background-color: var(--black);
+	color: var(--white);
+	border-radius: 5px;
+	border: none;
+}
+
+
+
+.mainSection p, span{
+		color: var(--white);
+}
+.mainSection .container{
+	height: 450px;
+}
+.mainSection p:first-child{
+	font-size: 7.4rem;
+	width: 18ch;
+}
+.mainSection p{
+	font-size: 2.2rem;
+	text-shadow: 1px 1px 1px var(--black);
+	font-weight: bold;
+}
+.mainSectionBtn{
+	color: var(--white);
+	font-size: 2rem;
+	border: none;
+	border-radius: 10px;
+	font-weight: 550;
+	transition: 100ms ease-in-out;
+}
+
+.mainSectionBtn:active{
+	padding: 10px 30px;
+	margin: 10px 0;
+}

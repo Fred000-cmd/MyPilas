@@ -1,113 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./__global/global.css">
+    <link rel="stylesheet" href="./__global/base.css">
+    <link rel="stylesheet" href="./__model/model.css">
+    <link rel="stylesheet" href="./__templates/stand.templete.css">
+    <link rel="stylesheet" href="./__templates/theme.css">
     <title>MyPillas</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/cards.css">
-    <link rel="stylesheet" href="styles/section.css">
-    <link rel="stylesheet" href="styles/class.css">
   </head>
   <body>
-    <!--begin header-->
-    <header class="container header-page">
-      <div class="header-image">
-        <img src="images/logo.png" alt="MyPillas" title="MyPillas" id="logo">
+    <header class="header bg-light">
+      <div class="container pt-1 pb-1 x-align-center space-b">
+        <img src="./images/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li class="row mr-1"><a href="#">Como funciona</a></li>
+            <li class="row mr-1"><a href="#">Planos e preços</a></li>
+            <li class="row mr-1"><a href="#">Contato</a></li>
+            <li class="row"><button class="pt-1 pb-1 pr-2 pl-2 text-center headerBtn">Login</button></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header-nav">
-        <ul class="nav-style-links">
-          <li class="nav-links"><a href="">Como funciona</a></li>
-          <li class="nav-links"><a href="">Planos e preços</a></li>
-          <li class="nav-links"><a href="">Contato</a></li>
-          <li class="nav-links"><a id="btn" href="">Login</a></li> 
-        </ul>
-      </nav> 
-    </header> 
-    <!--end header-->
-    <!--section-main- begin-->
-    <section class="section-main">
-      <h1 class="section-main-title">As finanças da sua empresa em ordem</h1>
-      <span class="section-main-text">Software de gestão simples e prático para pequenos negócios</span>
-      <button class="section-main-btn">Conheça os planos</button>
+    </header>
+    <section class="bg-blue mainSection pt-5 pb-5">
+      <div class="container y-align-center space-a">
+        <p class="text-center">As finanças da sua empresa em ordem</p>
+        <p class="text-center">Software de gestão simples e prático para pequenos negócios</p>
+        <button class="pr-4 pl-4 pt-2 pb-2 bg-dark mainSectionBtn">Conheça os planos</button></div>
     </section>
-    <!--end section-->
-
-    <section class="section-depoimento">
-      <div class="section-depoimento-text">
-        <p id="depoimento">Eu tinha perdido totalmente o controle da minha empresa. Depois que comecei a usar o MyPilas, me sinto muito mais organizado e confiante no futuro.</p>
-      </div>
-      <div class="section-image">
-        <img src="images/joao-da-silva.jpg" alt="joão da silva">
-      </div>
-      <div class="section-depoimento-text">
-        <p id="nome">João da Silva</p>
-      </div>
-    </section>
-    <!--end section-->
-
-    <section class="section-cards">
-      <div class="cards">
-        <h2>Autônomo</h2>
-        <p>R$59/mês</p>
-        <p>
-          Até 2 usuários
-          500MB de armazenamento
-          Lançamentos limitados
-          Acesso seguro
-          Sem fidelidade
-        </p>
-      </div>
-      <div class="cards">
-        <h2>Micro</h2>
-        <p>R$89/mês</p>
-        <p>
-    Até 6 usuários
-    1GB de armazenamento
-    Lançamentos limitados
-    Acesso seguro
-    Sem fidelidade
-</p>
-      </div>
-      <div class="cards">
-        <h2>Pequena</h2>
-        <p>R$99/mês</p>
-        <p>
-          
-    Até 10 usuários
-    5GB de armazenamento
-    Lançamentos limitados
-    Acesso seguro
-    Sem fidelidade
-
-        </p>
-      </div>
-    </section>
-
-
-
-<footer class="footer">
-  <span>© MyPilas. Todos os direitos reservados.</span>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="./sources/main.js"></script>
   </body>
 </html>
