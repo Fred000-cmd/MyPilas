@@ -4,19 +4,22 @@
 	border-radius: 5px;
 	border: none;
 }
-
+header > div{
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+.header img{
+	cursor: pointer;
+}
 .mainSection p, span{
 		color: var(--white);
-}
-.mainSection{
-
 }
 .mainSection p:first-child{
 	font-size: 7.4rem;
 	max-width: 18ch;
 	padding-bottom: 80px;
 }
-
 .mainSection p{
 	font-size: 2.2rem;
 	text-shadow: 1px 1px 1px var(--black);
@@ -27,21 +30,15 @@
 	font-size: 2rem;
 	border: none;
 	border-radius: 10px;
-	font-weight: 550;
+	font-weight: 650;
 	margin-top: 80px;
 	padding: 20px 40px;
 	outline: none;
 }
-
 .mainSectionBtn:active{
 	padding: 19px 35px;
 	margin-top: 82px;
 }
-
-
-
-
-
 .sectionCard{
 	margin: 80px auto;
 	position: relative;
@@ -96,7 +93,37 @@
 	text-align: center;
 	max-width: 40ch;
 }
-
 .sectionDepoiment p{
 	color: var(--white);
 }
+.collapse{
+	height: 100%;
+	width: 30px;
+	display: none;
+}
+.barras{
+	height: 5px;
+	width: 100%;
+	background-color: var(--black);
+}
+.barras:nth-child(2){
+	margin: 5px 0;
+}
+@media(max-width: 590px){
+	.navbar{
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		left: 100vw;
+		display: none;
+	}
+	.collapse{
+		display: block
+	}
+}
+
+
+
+
+
+

@@ -12,10 +12,15 @@
   </head>
   <body>
     <header class="header bg-light">
-      <div class="container pt-1 pb-1 x-align-center space-b pr-2 pl-2">
+      <div class="container pt-1 pb-1">
         <img src="./images/logo.png" alt="logo">
+        <div class="collapse">
+          <div class="barras"></div>
+          <div class="barras"></div>
+          <div class="barras"></div>
+        </div>
         <nav>
-          <ul>
+          <ul class="navbar">
             <li class="row mr-1"><a href="#">Como funciona</a></li>
             <li class="row mr-1"><a href="#">Planos e preços</a></li>
             <li class="row mr-1"><a href="#">Contato</a></li>
@@ -29,7 +34,8 @@
       <div class="container y-align-center space-a">
         <p class="text-center">As finanças da sua empresa em ordem</p>
         <p class="text-center">Software de gestão simples e prático para pequenos negócios</p>
-        <button class="bg-dark mainSectionBtn">Conheça os planos</button></div>
+        <a href="#preços" target="_self" class="bg-dark mainSectionBtn">Conheça os planos</a>
+      </div>
     </section>
 
     <section class="bg-dark">
@@ -40,7 +46,7 @@
       </div>
     </section>
 
-    <section class="container space-b bg-light">
+    <section class="container space-b bg-light" id="preços">
       <div class="card sectionCard">
         <div class="header bg-dark">
           <h2>Autônomo</h2>
@@ -68,5 +74,6 @@
     </section>
 
     <footer class="text-center bg-dark fc-light pt-2 pb-2">Todos os direitos reservados</footer>
+    <script src="./source.js"></script>
   </body>
 </html>
