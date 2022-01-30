@@ -23,6 +23,11 @@ a, button{
   font-size: 1.4rem;
 }
 
+body{
+  /*overflow-x: hidden;*/
+  position: relative;
+}
+
 a:hover, button:hover{
   cursor: pointer;
 }
@@ -75,3 +80,15 @@ p{
 .bg-light{
   background-color: var(--white);
 }
+
+.fc-dark{color: var(--black);}
+.fc-dark-blue{color: var(--dark-blue);}
+.fc-green{color: var(--green);}
+.fc-red{color: var(--red);}
+.fc-light{color: var(--white);}
+.fc-violet{color: var(--violet);}
+.fc-gray{color: var(--gray);}
+.fc-blue{color: var(--blue);}
+.fc-yellow{color: var(--yellow);}
+.fc-orange{color: var(--orange);}
+
