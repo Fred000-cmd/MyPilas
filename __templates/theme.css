@@ -1,3 +1,4 @@
+
 .headerBtn{
 	background-color: var(--black);
 	color: var(--white);
@@ -12,6 +13,7 @@ header > div{
 .header img{
 	cursor: pointer;
 }
+
 .mainSection p, span{
 		color: var(--white);
 }
@@ -96,6 +98,7 @@ header > div{
 .sectionDepoiment p{
 	color: var(--white);
 }
+
 .collapse{
 	height: 100%;
 	width: 30px;
@@ -109,19 +112,23 @@ header > div{
 .barras:nth-child(2){
 	margin: 5px 0;
 }
+
 @media(max-width: 590px){
 	.navbar{
-		flex-direction: column;
-		align-items: center;
-		position: relative;
-		left: 100vw;
 		display: none;
+		justify-content: space-between;
+	}
+	.navbar li{
+		display: block;
+		margin-top: 15px;
+		transform: translateX(100%);
+		transform: translateY();
 	}
 	.collapse{
-		display: block
+		display: inline;
+		text-align: right;
 	}
 }
-
 
 
 
